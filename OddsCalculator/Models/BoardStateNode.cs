@@ -6,8 +6,8 @@ namespace OddsCalculator.Models
     {
         public BoardState Value { get; set; }
 
-        public BoardState Parent { get; set; }
+        public BoardStateNode Parent { get; set; }
 
-        public List<BoardState> Children { get; set; }
+        public List<BoardStateNode> Children { get; set; } = new List<BoardStateNode>();
     }
 }

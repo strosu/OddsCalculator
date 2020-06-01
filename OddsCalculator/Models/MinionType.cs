@@ -9,4 +9,12 @@
         Murloc,
         Dragon
     }
+
+    public enum AttacksNext
+    {
+        Any,
+        Player,
+        Enemy
+    }
+
 }
